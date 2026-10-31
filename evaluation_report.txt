@@ -1,0 +1,19 @@
+EMAIL SPAM DETECTION - EVALUATION REPORT
+Dataset messages used: 5572
+Training messages: 4457
+Testing messages: 1115
+Accuracy: 0.9677 (96.77%)
+
+Classification report:
+              precision    recall  f1-score   support
+
+         ham       0.96      1.00      0.98       966
+        spam       1.00      0.76      0.86       149
+
+    accuracy                           0.97      1115
+   macro avg       0.98      0.88      0.92      1115
+weighted avg       0.97      0.97      0.97      1115
+
+Confusion matrix (rows = actual; columns = predicted):
+[[966   0]
+ [ 36 113]]
